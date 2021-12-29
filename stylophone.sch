@@ -1,0 +1,939 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small_US R23
+U 1 1 61BA7DA9
+P 3300 5750
+F 0 "R23" V 3505 5750 50  0000 C CNN
+F 1 "3K9" V 3414 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3300 5750 50  0001 C CNN
+F 3 "~" H 3300 5750 50  0001 C CNN
+	1    3300 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R26
+U 1 1 61BA7DA3
+P 4200 5750
+F 0 "R26" V 4405 5750 50  0000 C CNN
+F 1 "4K3" V 4314 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 4200 5750 50  0001 C CNN
+F 3 "~" H 4200 5750 50  0001 C CNN
+	1    4200 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R25
+U 1 1 61BA7D9D
+P 3900 5750
+F 0 "R25" V 4105 5750 50  0000 C CNN
+F 1 "4K3" V 4014 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3900 5750 50  0001 C CNN
+F 3 "~" H 3900 5750 50  0001 C CNN
+	1    3900 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R24
+U 1 1 61BA7D97
+P 3600 5750
+F 0 "R24" V 3805 5750 50  0000 C CNN
+F 1 "3K9" V 3714 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3600 5750 50  0001 C CNN
+F 3 "~" H 3600 5750 50  0001 C CNN
+	1    3600 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R19
+U 1 1 61BA6967
+P 2100 5750
+F 0 "R19" V 2305 5750 50  0000 C CNN
+F 1 "3K0" V 2214 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 2100 5750 50  0001 C CNN
+F 3 "~" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R22
+U 1 1 61BA6961
+P 3000 5750
+F 0 "R22" V 3205 5750 50  0000 C CNN
+F 1 "3K6" V 3114 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3000 5750 50  0001 C CNN
+F 3 "~" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 61BA695B
+P 2700 5750
+F 0 "R21" V 2905 5750 50  0000 C CNN
+F 1 "3K3" V 2814 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 2700 5750 50  0001 C CNN
+F 3 "~" H 2700 5750 50  0001 C CNN
+	1    2700 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R20
+U 1 1 61BA6955
+P 2400 5750
+F 0 "R20" V 2605 5750 50  0000 C CNN
+F 1 "3K0" V 2514 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 2400 5750 50  0001 C CNN
+F 3 "~" H 2400 5750 50  0001 C CNN
+	1    2400 5750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R15
+U 1 1 61BA59B9
+P 4500 5050
+F 0 "R15" V 4705 5050 50  0000 C CNN
+F 1 "2k4" V 4614 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 4500 5050 50  0001 C CNN
+F 3 "~" H 4500 5050 50  0001 C CNN
+	1    4500 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R18
+U 1 1 61BA59B3
+P 5400 5050
+F 0 "R18" V 5605 5050 50  0000 C CNN
+F 1 "2K7" V 5514 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 5400 5050 50  0001 C CNN
+F 3 "~" H 5400 5050 50  0001 C CNN
+	1    5400 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R17
+U 1 1 61BA59AD
+P 5100 5050
+F 0 "R17" V 5305 5050 50  0000 C CNN
+F 1 "2k7" V 5214 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 5100 5050 50  0001 C CNN
+F 3 "~" H 5100 5050 50  0001 C CNN
+	1    5100 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R16
+U 1 1 61BA59A7
+P 4800 5050
+F 0 "R16" V 5005 5050 50  0000 C CNN
+F 1 "2k4" V 4914 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 4800 5050 50  0001 C CNN
+F 3 "~" H 4800 5050 50  0001 C CNN
+	1    4800 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 61BA45CD
+P 3300 5050
+F 0 "R11" V 3505 5050 50  0000 C CNN
+F 1 "1K8" V 3414 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3300 5050 50  0001 C CNN
+F 3 "~" H 3300 5050 50  0001 C CNN
+	1    3300 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R14
+U 1 1 61BA45C7
+P 4200 5050
+F 0 "R14" V 4405 5050 50  0000 C CNN
+F 1 "2k2" V 4314 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 4200 5050 50  0001 C CNN
+F 3 "~" H 4200 5050 50  0001 C CNN
+	1    4200 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R13
+U 1 1 61BA45C1
+P 3900 5050
+F 0 "R13" V 4105 5050 50  0000 C CNN
+F 1 "2k2" V 4014 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3900 5050 50  0001 C CNN
+F 3 "~" H 3900 5050 50  0001 C CNN
+	1    3900 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 61BA45BB
+P 3600 5050
+F 0 "R12" V 3805 5050 50  0000 C CNN
+F 1 "2K0" V 3714 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3600 5050 50  0001 C CNN
+F 3 "~" H 3600 5050 50  0001 C CNN
+	1    3600 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 61BA239E
+P 2100 5050
+F 0 "R7" V 2305 5050 50  0000 C CNN
+F 1 "1K5" V 2214 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 2100 5050 50  0001 C CNN
+F 3 "~" H 2100 5050 50  0001 C CNN
+	1    2100 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 61B9D3E0
+P 3000 5050
+F 0 "R10" V 3205 5050 50  0000 C CNN
+F 1 "1K8" V 3114 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 3000 5050 50  0001 C CNN
+F 3 "~" H 3000 5050 50  0001 C CNN
+	1    3000 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 61B9CD3B
+P 2700 5050
+F 0 "R9" V 2905 5050 50  0000 C CNN
+F 1 "1K6" V 2814 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 2700 5050 50  0001 C CNN
+F 3 "~" H 2700 5050 50  0001 C CNN
+	1    2700 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 61B9C03B
+P 2400 5050
+F 0 "R8" V 2605 5050 50  0000 C CNN
+F 1 "1K5" V 2514 5050 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 2400 5050 50  0001 C CNN
+F 3 "~" H 2400 5050 50  0001 C CNN
+	1    2400 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 61B85FF9
+P 8700 2550
+F 0 "R1" V 8905 2550 50  0000 C CNN
+F 1 "0" V 8814 2550 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 8700 2550 50  0001 C CNN
+F 3 "~" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	0    1    -1   0   
+$EndComp
+Text Notes 8500 2800 0    50   ~ 0
+tune for max\ndesired vol level
+Wire Wire Line
+	9050 2550 8800 2550
+Wire Wire Line
+	8600 2550 8350 2550
+Wire Wire Line
+	1850 2300 1850 2550
+Wire Wire Line
+	1850 3350 1850 3150
+$Comp
+L power:GND #PWR0101
+U 1 1 61B94E5E
+P 1850 3350
+F 0 "#PWR0101" H 1850 3100 50  0001 C CNN
+F 1 "GND" H 1855 3177 50  0000 C CNN
+F 2 "" H 1850 3350 50  0001 C CNN
+F 3 "" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1900 1850 1700
+$Comp
+L power:+6V #PWR0102
+U 1 1 61B93A69
+P 1850 1700
+F 0 "#PWR0102" H 1850 1550 50  0001 C CNN
+F 1 "+6V" V 1865 1828 50  0000 L CNN
+F 2 "" H 1850 1700 50  0001 C CNN
+F 3 "" H 1850 1700 50  0001 C CNN
+	1    1850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2300 8000 2300
+Wire Wire Line
+	8200 2400 8200 2300
+$Comp
+L _stylophone:PT10LV10-102A2020-PM-S VR1
+U 1 1 61B8925A
+P 8200 2550
+F 0 "VR1" V 8246 2637 50  0000 L CNN
+F 1 "PT10LV10-102A2020-PM-S" V 8155 2637 50  0000 L CNN
+F 2 "_stylophone:PT10LV10" H 8850 2650 50  0001 L CNN
+F 3 "" H 8850 2550 50  0001 L CNN
+F 4 "Trimmer Resistors - Through Hole" H 8850 2450 50  0001 L CNN "Description"
+F 5 "531-PT10LV112A22PMS" H 8850 2250 50  0001 L CNN "Mouser Part Number"
+F 6 "PT10LV10-102A2020-PM-S" H 8850 2150 50  0001 L CNN "Mouser Price/Stock"
+F 7 "PIHER" H 8850 2050 50  0001 L CNN "Manufacturer_Name"
+F 8 "PT10LV10-102A2020-PM-S" H 8850 1950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8200 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 2550 9550 2550
+$Comp
+L Device:C_Small C1
+U 1 1 61B86D6C
+P 9150 2550
+F 0 "C1" V 8921 2550 50  0000 C CNN
+F 1 "100uF" V 9012 2550 50  0000 C CNN
+F 2 "_stylophone:C_0805" H 9150 2550 50  0001 C CNN
+F 3 "~" H 9150 2550 50  0001 C CNN
+	1    9150 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2650 9500 3000
+$Comp
+L power:GND #PWR0103
+U 1 1 61B858C7
+P 9500 3000
+F 0 "#PWR0103" H 9500 2750 50  0001 C CNN
+F 1 "GND" H 9505 2827 50  0000 C CNN
+F 2 "" H 9500 3000 50  0001 C CNN
+F 3 "" H 9500 3000 50  0001 C CNN
+	1    9500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2650 9500 2650
+$Comp
+L Device:Speaker LS1
+U 1 1 61B845A6
+P 9750 2550
+F 0 "LS1" H 9920 2546 50  0000 L CNN
+F 1 "CDM-20008" H 9920 2455 50  0000 L CNN
+F 2 "_stylophone:speaker_CDM-20008" H 9750 2350 50  0001 C CNN
+F 3 "~" H 9740 2500 50  0001 C CNN
+	1    9750 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 2300 0    50   Input ~ 0
+STYLUS
+Wire Wire Line
+	6000 2300 6250 2300
+Text GLabel 6400 2300 2    50   Input ~ 0
+STYLUS
+Wire Wire Line
+	4650 1500 4650 1650
+Text GLabel 4650 1500 1    50   Input ~ 0
+NOTES
+Wire Wire Line
+	4650 1850 4650 1950
+$Comp
+L Device:R_Small_US R2
+U 1 1 61B80533
+P 4650 1750
+F 0 "R2" H 4582 1796 50  0000 R CNN
+F 1 "560" H 4582 1705 50  0000 R CNN
+F 2 "_stylophone:R_0805" H 4650 1750 50  0001 C CNN
+F 3 "~" H 4650 1750 50  0001 C CNN
+	1    4650 1750
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4650 2300
+Wire Wire Line
+	4650 2150 4650 2300
+$Comp
+L Device:R_Small_US R4
+U 1 1 61B7FC33
+P 4650 2050
+F 0 "R4" H 4582 2096 50  0000 R CNN
+F 1 "24K" H 4582 2005 50  0000 R CNN
+F 2 "_stylophone:R_0805" H 4650 2050 50  0001 C CNN
+F 3 "~" H 4650 2050 50  0001 C CNN
+	1    4650 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2300 5000 2300
+$Comp
+L power:+6V #PWR0104
+U 1 1 61B7E2DE
+P 5000 2700
+F 0 "#PWR0104" H 5000 2550 50  0001 C CNN
+F 1 "+6V" V 5015 2828 50  0000 L CNN
+F 2 "" H 5000 2700 50  0001 C CNN
+F 3 "" H 5000 2700 50  0001 C CNN
+	1    5000 2700
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 6000 2500
+$Comp
+L power:GND #PWR0105
+U 1 1 61B7DBB2
+P 4650 3650
+F 0 "#PWR0105" H 4650 3400 50  0001 C CNN
+F 1 "GND" H 4655 3477 50  0000 C CNN
+F 2 "" H 4650 3650 50  0001 C CNN
+F 3 "" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1850 3800 1950
+$Comp
+L power:+6V #PWR0106
+U 1 1 61B7AA1A
+P 3800 1850
+F 0 "#PWR0106" H 3800 1700 50  0001 C CNN
+F 1 "+6V" H 3815 2023 50  0000 C CNN
+F 2 "" H 3800 1850 50  0001 C CNN
+F 3 "" H 3800 1850 50  0001 C CNN
+	1    3800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2150 3800 2350
+$Comp
+L Device:R_Small_US R3
+U 1 1 61B7A32B
+P 3800 2050
+F 0 "R3" H 3732 2096 50  0000 R CNN
+F 1 "1.0K" H 3732 2005 50  0000 R CNN
+F 2 "_stylophone:R_0805" H 3800 2050 50  0001 C CNN
+F 3 "~" H 3800 2050 50  0001 C CNN
+	1    3800 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3250 3800 3000
+$Comp
+L power:GND #PWR0107
+U 1 1 61B79B41
+P 3800 3250
+F 0 "#PWR0107" H 3800 3000 50  0001 C CNN
+F 1 "GND" H 3805 3077 50  0000 C CNN
+F 2 "" H 3800 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2800 3800 2650
+$Comp
+L Device:R_Small_US R6
+U 1 1 61B79182
+P 3800 2900
+F 0 "R6" H 3732 2946 50  0000 R CNN
+F 1 "3.3K" H 3732 2855 50  0000 R CNN
+F 2 "_stylophone:R_0805" H 3800 2900 50  0001 C CNN
+F 3 "~" H 3800 2900 50  0001 C CNN
+	1    3800 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2500 4350 2500
+Wire Wire Line
+	4550 2500 5000 2500
+$Comp
+L Device:R_Small_US R5
+U 1 1 61B71CE1
+P 4450 2500
+F 0 "R5" V 4655 2500 50  0000 C CNN
+F 1 "4.7K" V 4564 2500 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 4450 2500 50  0001 C CNN
+F 3 "~" H 4450 2500 50  0001 C CNN
+	1    4450 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L _stylophone:PT10LV10-472A2020-PM-S VR2
+U 1 1 61B678D5
+P 3800 2500
+F 0 "VR2" H 3800 2750 50  0000 C CNN
+F 1 "PT10LV10-472A2020-PM-S" H 3800 2650 50  0000 C CNN
+F 2 "_stylophone:PT10LV10" H 4450 2600 50  0001 L CNN
+F 3 "https://www.piher.net/pdf/12-PT10v03.pdf" H 4450 2500 50  0001 L CNN
+F 4 "Trimmer Resistors - Through Hole" H 4450 2400 50  0001 L CNN "Description"
+F 5 "" H 4450 2300 50  0001 L CNN "Height"
+F 6 "531-PT1LV1472A22PMS" H 4450 2200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Piher/PT10LV10-472A2020-PM-S?qs=byeeYqUIh0MFkdCvvlmb%2FQ%3D%3D" H 4450 2100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "PIHER" H 4450 2000 50  0001 L CNN "Manufacturer_Name"
+F 9 "PT10LV10-472A2020-PM-S" H 4450 1900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 2700 6000 2700
+$Comp
+L Device:C_Small C2
+U 1 1 61B65CFF
+P 4650 3350
+F 0 "C2" H 4742 3396 50  0000 L CNN
+F 1 "0.033uF" H 4742 3305 50  0000 L CNN
+F 2 "_stylophone:C_0805" H 4650 3350 50  0001 C CNN
+F 3 "~" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1850 5500 2100
+$Comp
+L power:+6V #PWR0108
+U 1 1 61B6541A
+P 5500 1850
+F 0 "#PWR0108" H 5500 1700 50  0001 C CNN
+F 1 "+6V" H 5515 2023 50  0000 C CNN
+F 2 "" H 5500 1850 50  0001 C CNN
+F 3 "" H 5500 1850 50  0001 C CNN
+	1    5500 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 5050 0    50   Input ~ 0
+NOTES
+Wire Wire Line
+	1650 5050 1950 5050
+Wire Wire Line
+	2200 5050 2250 5050
+Wire Wire Line
+	2500 5050 2550 5050
+Wire Wire Line
+	2800 5050 2850 5050
+Wire Wire Line
+	3100 5050 3150 5050
+Wire Wire Line
+	3400 5050 3450 5050
+Wire Wire Line
+	3700 5050 3750 5050
+Wire Wire Line
+	4000 5050 4050 5050
+Wire Wire Line
+	4300 5050 4350 5050
+Wire Wire Line
+	4900 5050 4950 5050
+Wire Wire Line
+	5200 5050 5250 5050
+Wire Wire Line
+	5500 5050 5600 5050
+Wire Wire Line
+	2200 5750 2250 5750
+Wire Wire Line
+	2500 5750 2550 5750
+Wire Wire Line
+	2800 5750 2850 5750
+Wire Wire Line
+	3100 5750 3150 5750
+Wire Wire Line
+	3400 5750 3450 5750
+Wire Wire Line
+	3700 5750 3750 5750
+Wire Wire Line
+	4000 5750 4050 5750
+$Comp
+L Device:R_Small_US R27
+U 1 1 61BA88C1
+P 4550 5750
+F 0 "R27" V 4755 5750 50  0000 C CNN
+F 1 "4K7" V 4664 5750 50  0000 C CNN
+F 2 "_stylophone:R_0805" H 4550 5750 50  0001 C CNN
+F 3 "~" H 4550 5750 50  0001 C CNN
+	1    4550 5750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4300 5750 4350 5750
+Text GLabel 1950 4900 1    50   Input ~ 0
+A2
+Text GLabel 2250 4900 1    50   Input ~ 0
+G#2
+Text GLabel 2550 4900 1    50   Input ~ 0
+G2
+Text GLabel 2850 4900 1    50   Input ~ 0
+F#2
+Text GLabel 3150 4900 1    50   Input ~ 0
+F2
+Text GLabel 3450 4900 1    50   Input ~ 0
+E2
+Text GLabel 3750 4900 1    50   Input ~ 0
+D#2
+Text GLabel 4050 4900 1    50   Input ~ 0
+D2
+Text GLabel 4350 4900 1    50   Input ~ 0
+C#2
+Text GLabel 4650 4900 1    50   Input ~ 0
+C2
+Text GLabel 4950 4900 1    50   Input ~ 0
+B1
+Text GLabel 5250 4900 1    50   Input ~ 0
+A#1
+Text GLabel 1950 5600 1    50   Input ~ 0
+A1
+Text GLabel 2250 5600 1    50   Input ~ 0
+G#1
+Wire Wire Line
+	1950 5600 1950 5750
+Wire Wire Line
+	1950 5750 2000 5750
+Text GLabel 2550 5600 1    50   Input ~ 0
+G1
+Text GLabel 2850 5600 1    50   Input ~ 0
+F#1
+Text GLabel 3150 5600 1    50   Input ~ 0
+F1
+Text GLabel 3450 5600 1    50   Input ~ 0
+E1
+Text GLabel 3750 5600 1    50   Input ~ 0
+D#1
+Text GLabel 4050 5600 1    50   Input ~ 0
+D1
+Text GLabel 4350 5600 1    50   Input ~ 0
+C#1
+Text GLabel 4650 5600 1    50   Input ~ 0
+C1
+Wire Wire Line
+	4650 5600 4650 5750
+Wire Wire Line
+	4350 5600 4350 5750
+Connection ~ 4350 5750
+Wire Wire Line
+	4350 5750 4450 5750
+Wire Wire Line
+	4050 5600 4050 5750
+Connection ~ 4050 5750
+Wire Wire Line
+	4050 5750 4100 5750
+Wire Wire Line
+	3750 5600 3750 5750
+Connection ~ 3750 5750
+Wire Wire Line
+	3750 5750 3800 5750
+Wire Wire Line
+	3450 5750 3450 5600
+Connection ~ 3450 5750
+Wire Wire Line
+	3450 5750 3500 5750
+Wire Wire Line
+	3150 5600 3150 5750
+Connection ~ 3150 5750
+Wire Wire Line
+	3150 5750 3200 5750
+Wire Wire Line
+	2850 5750 2850 5600
+Connection ~ 2850 5750
+Wire Wire Line
+	2850 5750 2900 5750
+Wire Wire Line
+	2550 5750 2550 5600
+Connection ~ 2550 5750
+Wire Wire Line
+	2550 5750 2600 5750
+Wire Wire Line
+	2250 5750 2250 5600
+Connection ~ 2250 5750
+Wire Wire Line
+	2250 5750 2300 5750
+Wire Wire Line
+	2250 5050 2250 4900
+Connection ~ 2250 5050
+Wire Wire Line
+	2250 5050 2300 5050
+Wire Wire Line
+	1950 4900 1950 5050
+Connection ~ 1950 5050
+Wire Wire Line
+	1950 5050 2000 5050
+Wire Wire Line
+	2550 4900 2550 5050
+Connection ~ 2550 5050
+Wire Wire Line
+	2550 5050 2600 5050
+Wire Wire Line
+	2850 4900 2850 5050
+Connection ~ 2850 5050
+Wire Wire Line
+	2850 5050 2900 5050
+Wire Wire Line
+	3150 4900 3150 5050
+Connection ~ 3150 5050
+Wire Wire Line
+	3150 5050 3200 5050
+Wire Wire Line
+	3450 5050 3450 4900
+Connection ~ 3450 5050
+Wire Wire Line
+	3450 5050 3500 5050
+Wire Wire Line
+	3750 4900 3750 5050
+Connection ~ 3750 5050
+Wire Wire Line
+	3750 5050 3800 5050
+Wire Wire Line
+	4050 5050 4050 4900
+Connection ~ 4050 5050
+Wire Wire Line
+	4050 5050 4100 5050
+Wire Wire Line
+	4350 4900 4350 5050
+Connection ~ 4350 5050
+Wire Wire Line
+	4350 5050 4400 5050
+Wire Wire Line
+	4650 5050 4650 4900
+Wire Wire Line
+	4600 5050 4650 5050
+Connection ~ 4650 5050
+Wire Wire Line
+	4650 5050 4700 5050
+Wire Wire Line
+	4950 5050 4950 4900
+Connection ~ 4950 5050
+Wire Wire Line
+	4950 5050 5000 5050
+Wire Wire Line
+	5250 4900 5250 5050
+Connection ~ 5250 5050
+Wire Wire Line
+	5250 5050 5300 5050
+Text Label 5600 5050 0    50   ~ 0
+NOTES_CONT
+Text Label 1950 5750 2    50   ~ 0
+NOTES_CONT
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61C506DF
+P 6250 2150
+F 0 "TP1" H 6308 2268 50  0000 L CNN
+F 1 "Stylus" H 6308 2177 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm_Relief" H 6450 2150 50  0001 C CNN
+F 3 "~" H 6450 2150 50  0001 C CNN
+	1    6250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2150 6250 2300
+Connection ~ 6250 2300
+Wire Wire Line
+	6250 2300 6400 2300
+$Comp
+L Timer:NA555D U1
+U 1 1 61C550E3
+P 5500 2500
+F 0 "U1" H 5500 3081 50  0000 C CNN
+F 1 "NA555D" H 5500 2990 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 6350 2100 50  0001 C CNN
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8200 2700
+$Comp
+L _stylophone:keys k1
+U 1 1 61C8C292
+P 7400 4950
+F 0 "k1" H 7400 5375 50  0000 C CNN
+F 1 "keys" H 7400 5284 50  0000 C CNN
+F 2 "_stylophone:keys" H 7400 5250 50  0001 C CNN
+F 3 "" H 7400 5250 50  0001 C CNN
+	1    7400 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 4950 2    50   Input ~ 0
+A2
+Text GLabel 7800 5050 2    50   Input ~ 0
+G#2
+Text GLabel 7800 5150 2    50   Input ~ 0
+G2
+Text GLabel 7800 5250 2    50   Input ~ 0
+F#2
+Text GLabel 7800 5350 2    50   Input ~ 0
+F2
+Text GLabel 7800 5450 2    50   Input ~ 0
+E2
+Text GLabel 7800 5550 2    50   Input ~ 0
+D#2
+Text GLabel 7800 5650 2    50   Input ~ 0
+D2
+Text GLabel 7800 5750 2    50   Input ~ 0
+C#2
+Text GLabel 7800 5850 2    50   Input ~ 0
+C2
+Wire Wire Line
+	7650 5050 7800 5050
+Wire Wire Line
+	7800 4950 7650 4950
+Wire Wire Line
+	7800 5150 7650 5150
+Wire Wire Line
+	7800 5250 7650 5250
+Wire Wire Line
+	7800 5350 7650 5350
+Wire Wire Line
+	7650 5450 7800 5450
+Wire Wire Line
+	7800 5550 7650 5550
+Wire Wire Line
+	7650 5650 7800 5650
+Wire Wire Line
+	7800 5750 7650 5750
+Wire Wire Line
+	7650 5850 7800 5850
+Text GLabel 7000 4750 0    50   Input ~ 0
+B1
+Text GLabel 7000 4850 0    50   Input ~ 0
+A#1
+Wire Wire Line
+	7150 4750 7000 4750
+Wire Wire Line
+	7000 4850 7150 4850
+Text GLabel 7000 4950 0    50   Input ~ 0
+A1
+Text GLabel 7000 5050 0    50   Input ~ 0
+G#1
+Wire Wire Line
+	7000 4950 7150 4950
+Text GLabel 7000 5150 0    50   Input ~ 0
+G1
+Text GLabel 7000 5250 0    50   Input ~ 0
+F#1
+Text GLabel 7000 5350 0    50   Input ~ 0
+F1
+Text GLabel 7000 5450 0    50   Input ~ 0
+E1
+Text GLabel 7000 5750 0    50   Input ~ 0
+C#1
+Text GLabel 7000 5850 0    50   Input ~ 0
+C1
+Wire Wire Line
+	7000 5850 7150 5850
+Wire Wire Line
+	7000 5750 7150 5750
+Wire Wire Line
+	7150 5450 7000 5450
+Wire Wire Line
+	7000 5350 7150 5350
+Wire Wire Line
+	7150 5250 7000 5250
+Wire Wire Line
+	7150 5150 7000 5150
+Wire Wire Line
+	7150 5050 7000 5050
+Wire Wire Line
+	7000 5550 7150 5550
+Text GLabel 7000 5550 0    50   Input ~ 0
+D#1
+Wire Wire Line
+	7000 5650 7150 5650
+Text GLabel 7000 5650 0    50   Input ~ 0
+D1
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61D3B070
+P 10050 6000
+F 0 "H1" H 10150 6046 50  0000 L CNN
+F 1 "MountingHole" H 10150 5955 50  0000 L CNN
+F 2 "_stylophone:hole" H 10050 6000 50  0001 C CNN
+F 3 "~" H 10050 6000 50  0001 C CNN
+	1    10050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61D544A5
+P 1850 2100
+F 0 "SW1" V 1804 2248 50  0000 L CNN
+F 1 "SW_Push" V 1895 2248 50  0000 L CNN
+F 2 "_stylophone:PTS647SM50SMTR2LFS" H 1850 2300 50  0001 C CNN
+F 3 "~" H 1850 2300 50  0001 C CNN
+	1    1850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L _stylophone:BAT-HLD-001 B1
+U 1 1 61D691C4
+P 1850 2700
+F 0 "B1" H 1968 2746 50  0000 L CNN
+F 1 "BAT-HLD-001" H 1968 2655 50  0000 L CNN
+F 2 "_stylophone:BATHLD001" H 2100 2850 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/238/LNNC_S_A0002913840_1-2550745.pdf" H 2100 2750 50  0001 L CNN
+F 4 "Coin Cell Battery Holders Linx CR2032 Battery Holder" H 2100 2650 50  0001 L CNN "Description"
+F 5 "4" H 2100 2550 50  0001 L CNN "Height"
+F 6 "712-BAT-HLD-001" H 2100 2450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/BAT-HLD-001?qs=K5ta8V%252BWhta7hbVGfm4dqA%3D%3D" H 2100 2350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linx Technologies" H 2100 2250 50  0001 L CNN "Manufacturer_Name"
+F 9 "BAT-HLD-001" H 2100 2150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L _stylophone:BAT-HLD-001 B2
+U 1 1 61D6986A
+P 1850 3000
+F 0 "B2" H 1968 3046 50  0000 L CNN
+F 1 "BAT-HLD-001" H 1968 2955 50  0000 L CNN
+F 2 "_stylophone:BATHLD001" H 2100 3150 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/238/LNNC_S_A0002913840_1-2550745.pdf" H 2100 3050 50  0001 L CNN
+F 4 "Coin Cell Battery Holders Linx CR2032 Battery Holder" H 2100 2950 50  0001 L CNN "Description"
+F 5 "4" H 2100 2850 50  0001 L CNN "Height"
+F 6 "712-BAT-HLD-001" H 2100 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/BAT-HLD-001?qs=K5ta8V%252BWhta7hbVGfm4dqA%3D%3D" H 2100 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linx Technologies" H 2100 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "BAT-HLD-001" H 2100 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Radio_Waves_Small LOGO1
+U 1 1 61DDE8D1
+P 9500 6000
+F 0 "LOGO1" H 9500 6140 50  0001 C CNN
+F 1 "SYM_Radio_Waves_Small" H 9500 5875 50  0001 C CNN
+F 2 "_stylophone:logo" H 9500 5825 50  0001 C CNN
+F 3 "~" H 9530 5800 50  0001 C CNN
+	1    9500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3450 4650 3650
+Wire Wire Line
+	4650 2300 4650 3200
+Wire Wire Line
+	6300 3200 4650 3200
+Wire Wire Line
+	6300 2700 6300 3200
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3200 4650 3250
+$Comp
+L power:GND #PWR?
+U 1 1 61C34770
+P 5500 2950
+F 0 "#PWR?" H 5500 2700 50  0001 C CNN
+F 1 "GND" H 5505 2777 50  0000 C CNN
+F 2 "" H 5500 2950 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2950 5500 2900
+$EndSCHEMATC

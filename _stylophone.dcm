@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT-HLD-001
+F https://www.mouser.com/datasheet/2/238/LNNC_S_A0002913840_1-2550745.pdf
+$ENDCMP
+#
+$CMP PT10LV10-472A2020-PM-S
+F https://www.piher.net/pdf/12-PT10v03.pdf
+$ENDCMP
+#
+$CMP PTS647SM50SMTR2LFS
+F https://www.ckswitches.com/media/2567/pts647.pdf
+$ENDCMP
+#
+#End Doc Library

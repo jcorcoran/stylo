@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name _stylophone)(type Legacy)(uri ${KIPRJMOD}/_stylophone.lib)(options "")(descr ""))
+)

@@ -1,0 +1,286 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Speaker
+#
+DEF Device_Speaker LS 0 0 Y N 1 F N
+F0 "LS" 50 225 50 H V R CNN
+F1 "Device_Speaker" 50 150 50 H V R CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" -10 -50 50 H I C CNN
+DRAW
+S -100 50 40 -150 0 0 10 N
+P 4 0 0 10 40 50 140 150 140 -250 40 -150 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Graphic_SYM_Radio_Waves_Small
+#
+DEF Graphic_SYM_Radio_Waves_Small #SYM 0 40 Y N 1 F N
+F0 "#SYM" 0 140 50 H I C CNN
+F1 "Graphic_SYM_Radio_Waves_Small" 0 -125 50 H I C CNN
+F2 "" 0 -175 50 H I C CNN
+F3 "" 30 -200 50 H I C CNN
+DRAW
+A 0 0 22 266 -266 0 1 0 N 20 10 20 -10
+A 0 0 36 337 -337 0 1 0 N 30 20 30 -20
+A 0 0 22 1534 -1534 0 1 0 N -20 10 -20 -10
+A 0 0 36 -1463 1463 0 1 0 N -30 -20 -30 20
+C 0 0 10 0 1 0 F
+P 4 0 1 10 -100 -75 100 -75 0 100 -100 -75 f
+P 4 0 1 0 -20 -60 20 -60 0 0 -20 -60 F
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Timer_NA555D
+#
+DEF Timer_NA555D U 0 20 Y Y 1 F N
+F0 "U" -400 350 50 H V L CNN
+F1 "Timer_NA555D" 100 350 50 H V L CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 850 -400 50 H I C CNN
+F3 "" 850 -400 50 H I C CNN
+ALIAS LM555xM ICM7555xB LMC555xM MC1455B TLC555xD NA555D SE555D SA555D
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -350 -300 350 300 0 1 10 f
+S -350 -300 350 300 0 1 10 f
+X GND 1 0 -400 100 U 50 50 0 0 W
+X VCC 8 0 400 100 D 50 50 0 0 W
+X TR 2 -500 200 150 R 50 50 1 1 I
+X Q 3 500 200 150 L 50 50 1 1 O
+X R 4 -500 -200 150 R 50 50 1 1 I I
+X CV 5 -500 0 150 R 50 50 1 1 I
+X THR 6 500 -200 150 L 50 50 1 1 I
+X DIS 7 500 0 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# _stylophone_BAT-HLD-001
+#
+DEF _stylophone_BAT-HLD-001 B 0 30 Y Y 1 F N
+F0 "B" 250 350 50 H V L CNN
+F1 "_stylophone_BAT-HLD-001" 250 250 50 H V L CNN
+F2 "_stylophone:BATHLD001" 250 150 50 H I L CNN
+F3 "" 250 50 50 H I L CNN
+F4 "Coin Cell Battery Holders Linx CR2032 Battery Holder" 250 -50 50 H I L CNN "Description"
+F5 "4" 250 -150 50 H I L CNN "Height"
+F6 "712-BAT-HLD-001" 250 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/BAT-HLD-001?qs=K5ta8V%252BWhta7hbVGfm4dqA%3D%3D" 250 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Linx Technologies" 250 -450 50 H I L CNN "Manufacturer_Name"
+F9 "BAT-HLD-001" 250 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S -90 20 90 10 1 1 0 F
+S -62 -3 58 -23 1 1 0 F
+P 2 1 1 0 0 -20 0 -50 N
+P 2 1 1 0 0 20 0 50 N
+P 2 1 1 10 20 85 60 85 N
+P 2 1 1 10 40 105 40 65 N
+X + 1 0 150 100 D 50 50 1 1 P
+X - 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# _stylophone_PT10LV10-102A2020-PM-S
+#
+DEF _stylophone_PT10LV10-102A2020-PM-S VR 0 30 Y Y 1 F N
+F0 "VR" 650 300 50 H V L CNN
+F1 "_stylophone_PT10LV10-102A2020-PM-S" 650 200 50 H V L CNN
+F2 "_stylophone:PT10LV10" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Trimmer Resistors - Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "531-PT10LV112A22PMS" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "PT10LV10-102A2020-PM-S" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "PIHER" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "PT10LV10-102A2020-PM-S" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 0 -100 0 -60 N
+P 2 1 1 0 100 0 90 0 N
+P 4 1 1 0 0 -45 20 -90 -20 -90 0 -45 F
+P 5 1 1 0 -30 0 -45 -40 -60 0 -75 40 -90 0 N
+P 5 1 1 0 30 0 15 -40 0 0 -15 40 -30 0 N
+P 5 1 1 0 90 0 75 -40 60 0 45 40 30 0 N
+X A 1 -150 0 50 R 50 50 1 1 P
+X S 2 0 -150 50 U 50 50 1 1 P
+X E 3 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# _stylophone_PT10LV10-472A2020-PM-S
+#
+DEF _stylophone_PT10LV10-472A2020-PM-S VR 0 30 Y Y 1 F N
+F0 "VR" 650 300 50 H V L CNN
+F1 "_stylophone_PT10LV10-472A2020-PM-S" 650 200 50 H V L CNN
+F2 "_stylophone:PT10LV10" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Trimmer Resistors - Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "531-PT1LV1472A22PMS" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Amphenol-Piher/PT10LV10-472A2020-PM-S?qs=byeeYqUIh0MFkdCvvlmb%2FQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "PIHER" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "PT10LV10-472A2020-PM-S" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 0 -100 0 -60 N
+P 2 1 1 0 100 0 90 0 N
+P 4 1 1 0 0 -45 20 -90 -20 -90 0 -45 F
+P 5 1 1 0 -30 0 -45 -40 -60 0 -75 40 -90 0 N
+P 5 1 1 0 30 0 15 -40 0 0 -15 40 -30 0 N
+P 5 1 1 0 90 0 75 -40 60 0 45 40 30 0 N
+X A 1 -150 0 50 R 50 50 1 1 P
+X S 2 0 -150 50 U 50 50 1 1 P
+X E 3 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# _stylophone_keys
+#
+DEF _stylophone_keys k 0 40 Y Y 1 F N
+F0 "k" 0 300 50 H V C CNN
+F1 "_stylophone_keys" 0 400 50 H V C CNN
+F2 "_stylophone:keys" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S -200 250 200 -950 0 1 0 N
+X A#1 A#1 -250 100 50 R 50 50 1 1 P
+X A1 A1 -250 0 50 R 50 50 1 1 P
+X A2 A2 250 0 50 L 50 50 1 1 P
+X B1 B1 -250 200 50 R 50 50 1 1 P
+X C#1 C#1 -250 -800 50 R 50 50 1 1 P
+X C#2 C#2 250 -800 50 L 50 50 1 1 P
+X C1 C1 -250 -900 50 R 50 50 1 1 P
+X C2 C2 250 -900 50 L 50 50 1 1 P
+X D#1 D#1 -250 -600 50 R 50 50 1 1 P
+X D#2 D#2 250 -600 50 L 50 50 1 1 P
+X D1 D1 -250 -700 50 R 50 50 1 1 P
+X D2 D2 250 -700 50 L 50 50 1 1 P
+X E1 E1 -250 -500 50 R 50 50 1 1 P
+X E2 E2 250 -500 50 L 50 50 1 1 P
+X F#1 F#1 -250 -300 50 R 50 50 1 1 P
+X F#2 F#2 250 -300 50 L 50 50 1 1 P
+X F1 F1 -250 -400 50 R 50 50 1 1 P
+X F2 F2 250 -400 50 L 50 50 1 1 P
+X G#1 G#1 -250 -100 50 R 50 50 1 1 P
+X G#2 G#2 250 -100 50 L 50 50 1 1 P
+X G1 G1 -250 -200 50 R 50 50 1 1 P
+X G2 G2 250 -200 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+6V
+#
+DEF power_+6V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+6V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +6V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
